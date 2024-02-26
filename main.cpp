@@ -1078,7 +1078,7 @@ UploadTextureData(textureResource, mipImages);
 					MakeAffineMatrix(transforms[index].scale, transforms[index].rotate, transforms[index].translate);
 				Matrix4x4 worldViewProjectionMatrix = Multiply(worldMatrix, viewProjectionMatrix);
 				instancingData[index].WVP = worldViewProjectionMatrix;
-				instancingData[index].World = worldMatrix;
+				//nstancingData[index].World = worldMatrix;
 			}
 
 			//これから書き込むバックバッファのインデックスを取得
